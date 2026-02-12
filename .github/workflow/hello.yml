@@ -8,8 +8,8 @@ jobs:
 
 steeps:
   -name: Decir Hola
-  run: echo "Hola desde github"
+   run: echo "Hola desde github"
   -name: mostrar fecha
-  run: date
+   run: date
   -name: Listar archivos
-  run: ls-la
+   run: ls-la
