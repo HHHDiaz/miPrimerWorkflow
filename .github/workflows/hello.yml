@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: Decir Hola
-      run: echo "Hola desde github"
-      -name: mostrar fecha
-      run: date
-      -name: Listar archivos
-      run: ls-la
+      - name: Decir Hola
+        run: echo "Hola desde github"
+      - name: mostrar fecha
+        run: date
+      - name: Listar archivos
+        run: ls-la
