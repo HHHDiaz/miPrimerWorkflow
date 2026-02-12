@@ -4,12 +4,12 @@ on: [push]
 
 jobs:
   greet:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-steeps:
-  -name: Decir Hola
-   run: echo "Hola desde github"
-  -name: mostrar fecha
-   run: date
-  -name: Listar archivos
-   run: ls-la
+    steeps:
+      -name: Decir Hola
+      run: echo "Hola desde github"
+      -name: mostrar fecha
+      run: date
+      -name: Listar archivos
+      run: ls-la
