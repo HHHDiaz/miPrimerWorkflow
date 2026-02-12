@@ -1,0 +1,15 @@
+name: Hola Mod4
+
+on: [push]
+
+jobs:
+  greet:
+  runs-on: ubuntu-latest
+
+steeps:
+  -name: Decir Hola
+  run: echo "Hola desde github"
+  -name: mostrar fecha
+  run: date
+  -name: Listar archivos
+  run: ls-la
