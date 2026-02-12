@@ -6,7 +6,7 @@ jobs:
   greet:
     runs-on: ubuntu-latest
 
-    steeps:
+    steps:
       -name: Decir Hola
       run: echo "Hola desde github"
       -name: mostrar fecha
