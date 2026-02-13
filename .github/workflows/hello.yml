@@ -1,15 +1,16 @@
-name: Hola Mod4
+name: Hola Mod4 DevOps
 
 on: [push]
 
 jobs:
-  gret:
+
+  greet:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Decir Hola
-        run: echo "Hola desde github"
-      - name: mostrar fecha
+      - name: Say hello
+        run: echo "Hello, GitHub Actions!"
+      - name: Show date
         run: date
-      - name: Listar archivos
-        run: ls-la
+      - name: List files
+        run: ls -la
