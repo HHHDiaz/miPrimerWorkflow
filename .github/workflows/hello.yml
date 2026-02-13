@@ -3,7 +3,7 @@ name: Hola Mod4
 on: [push]
 
 jobs:
-  greet:
+  gret:
     runs-on: ubuntu-latest
 
     steps:
